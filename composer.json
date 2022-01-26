@@ -11,7 +11,11 @@
     "project",
     "oop"
   ],
-
+  "autoload": {
+    "psr-4": {
+      "EfTech\\ContactList\\Infrastructure\\" : "src"
+    }
+  },
   "authors": [
     {
       "name": "Fedyancev Daniil",
