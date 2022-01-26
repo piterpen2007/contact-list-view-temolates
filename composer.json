@@ -1,7 +1,7 @@
 {
   "name" : "eff-tech/view-template",
   "description": "Electronic library. An example of an application",
-  "type": "library",
+  "type": "framework project",
   "homepage": "https://git.effective-team.ru/rnd/educational-projects/interns/2021-flow-1/fedyancev.d.a/view-template",
   "readme": "readme",
   "license": "proprietary",
