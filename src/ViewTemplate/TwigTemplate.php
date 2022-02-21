@@ -9,9 +9,9 @@ use Twig\Loader\FilesystemLoader;
 class TwigTemplate implements ViewTemplateInterface
 {
     /** Путь до директории с шаблонами
-     * @var string
+     * @var array
      */
-    private string $pathToTemplates;
+    private array $pathToTemplates;
     /** Шаблонизатор twig
      * @var Environment|null
      */
@@ -46,11 +46,11 @@ class TwigTemplate implements ViewTemplateInterface
 
 
     /**
-     * @param string $pathToTemplates
+     * @param array $pathToTemplates
      * @param string|null $cacheDir
      * @param bool $debug
      */
-    public function __construct(string $pathToTemplates, string $cacheDir = null, bool $debug = false)
+    public function __construct(array $pathToTemplates, string $cacheDir = null, bool $debug = false)
     {
         $this->pathToTemplates = $pathToTemplates;
         $this->cacheDir = $cacheDir;
